@@ -11,10 +11,12 @@ let cpuNum= chooseCpuNum()
 function chooseCpuNum(){
     return Math.floor(Math.random() * 5) + 1
 }
+function sum(num1 , num2){
+    return num1 + num2;
+}
 
-let sum = userNUm + cpuNum
+let result = sum(userNUm , cpuNum)
 
-let result;
 if(sum % 2 === 0){
     result='pari'
 } else{
